@@ -18,6 +18,6 @@ resource "aws_instance" "app_server" {
   ami = "ami-07ffe7b5c785aaac1"
   instance_type = "t2.micro"
   tags = {
-    name = var.instance_name
+    Name = var.instance_name
   }
 }
